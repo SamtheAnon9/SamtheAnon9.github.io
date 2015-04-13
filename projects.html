@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Samuel Cole Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samuel Cole Portfolio">
+    <meta name="author" content="Samuel Cole">
+	<meta name="keywords" content="Samuel Cole, Portfolio, Programming, Games, Development">
+
+	
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
+    <style type="text/css">
+		body {
+			padding-top: 20px;
+			padding-bottom: 40px;
+			/* Background image from subtlepatterns.com */
+			background-image: url(images/background.png);
+		}
+		h1 {
+			text-shadow: 3px 3px 3px #ccc;
+			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+			line-height: 65px;
+		}
+		h2 {
+			text-shadow: 1px 1px 1px #ccc;
+			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+			text-align: center;
+		}
+		p {
+			text-align: center;
+			font-family: 'Vollkorn', Georgia, Times, serif;
+			font-size: 16px;
+			line-height: 25px;
+		}
+
+		/* Custom container */
+		.container-narrow {
+			margin: 0 auto;
+			max-width: 700px;
+		}
+		
+		.container-narrow > hr {
+			margin: 30px 0;
+		}
+
+		/* Main marketing message and sign up button */
+		.jumbotron {
+			margin: 60px 0;
+			text-align: center;
+		}
+		.jumbotron h1 {
+			font-size: 72px;
+			line-height: 1;
+		}
+		.jumbotron .btn {
+			font-size: 21px;
+			padding: 14px 24px;
+		}
+		
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Projects</a></li>
+		  <li><a href="blogs.html">Blogs</a></li>
+		  <li><a href="research.html">Research</a></li>
+        </ul>
+        <h3 class="muted">Samuel Cole</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1 style="font-size: 50px;">Projects</h1>
+        <p class="lead">Below is a list containing most of the projects that I have worked on (or are working on), with most recent projects on the top, and the oldest ones at the bottom.</p>
+      </div>
+
+      <hr>
+
+      <div>
+          <h2>Tactical Tank Conflict</h2>
+          <p>Tactical Tank Conflict is an RTS/Tower Defense game that I am currently working on with a group of other AIE students. This game is only ever intended to be a small prototype, and is being developed within the Unity engine.</p>
+		  <p>The game will play like a Tower Defense game, with the player placing tanks and walls around the map. If there is enough time, these tanks will act as units, and will chase enemies down within a small radius, however otherwise they will act as towers, and shoot things while stationary. Some enemies will be able to attack walls/tanks instead of heading straight to the end, and the player will have to split their resources between repairing their tanks/walls and placing more.</p>
+		  <p>This game is still in a very, very early stage of development, and hence I haven't provided a link/picture/etc. for it.</p>
+      </div>
+	  
+	  <hr>
+
+	  <div>
+          <h2><a href="https://github.com/samtheanon9/IntroToOpenGL">(as of yet) unnamed game engine</a></h2>
+          <p>[insert your own, creative name for my engine here] is a game engine that I am currently working on in C++ with OpenGL. This engine has been in development for two and a bit months. This is the first engine that I have worked on, and while it is very basic by engine standards, I am greatly enjoying making it.</p>
+		  <p>The engine currently allows users to easily create games, and has the following features implemented so far:</p>
+		  <ul>
+			<li>Can generate plane meshes.</li>
+			<li>Can load in .obj models.</li>
+			<li>Can load in .fbx models (both static and animated ones).</li>
+			<li>Can load in and apply textures, normal maps and specular maps to any objects within the game world.</li>
+			<li>Can move objects within the game world around.</li>
+			<li>Has built-in lighting, and allows some light settings to be changed at run-time with a debug GUI.</li>
+			<li>Can generate shadows for any objects in the game world.</li>
+			<li>Can procedurally modify any model through the use of Perlin noise.</li>
+			<li>Can create particles and particle emitters on either the CPU or GPU.</li>
+			<li>Can easily render any in-game camera's output to texture.</li>
+		  </ul>
+		  <p>The link in the heading leads to the GitHub page for this engine. When I have completed work on it, a download link to the finished product will be provided here.</p>
+      </div>
+	  
+	  <hr>
+	  
+	  <h2><a href = "https://github.com/samtheanon9/ModerateDownpour">Moderate Downpour</a></h2>
+	  <div class = "row-fluid">
+		<div class="span6">
+          <p>Moderate Downpour is a one-button game that I made in Unity with a group of other students. Moderate Downpour was developed in short bursts over a 4-week period, and was my first experience working with artists and designers.</p>
+		  <p>In Moderate Downpour, you play as a man walking through a storm who must avoid various hazards: splashes from passing cars, incoming lightning, various objects thrown at you by the wind, and the relentless downpour of rain. You avoid these hazards by switching your umbrella between being up and being forwards- having the umbrella forwards blocks most hazards, however for as long as the umbrella is forwards, you will be getting wet, which blurs the screen, and eventually kills you.</p>
+		  <p><a href = "https://drive.google.com/file/d/0B-kbGELCvhUGTVhGUmNGbm1WR1k/view?usp=sharing"> Click here </a> to download a release build of Moderate Downpour, or click the heading above to access the GitHub page for it.
+		</div>
+		<div class="span6">
+			<img src="images/moderatedownpour.jpg" alt="Screenshot of Moderate Downpour" height="100%" width="100%">
+		</div>
+	  </div>
+	  
+	  <hr>
+	  
+	  <div>
+          <h2><a href = "https://drive.google.com/file/d/0B-kbGELCvhUGRHdXZ2l3N0NIZ3c/view?usp=sharing">QuadriBATTLEral</a></h2>
+          <p>QuadriBATTLEral is a top-down shooter game I produced in Unity. It was a two week long project made with the intention of refreshing my knowledge of Unity.</p>
+		  <p>The goal of QuadriBATTLEral is to score as many points as you can before dying to an unstoppable tide of squares. Score is increased by killing squares, and your score multiplier can be increased by killing the 'spawner' squares. Doing this also generates upgrades, that spawn on random positions within the game world. Walls, crates and 'spawner' squares are all placed procedurally at the start of the game. The game features three enemy types- normal squares, that chase you and deal damage upon collision with you, 'shield' squares that carry a rectangle shield with them and reflect your shots at you, and 'spawner' squares that spawn the other types of square (and spawn a new spawner square on death).</p>
+		  <p>QuadriBATTLEral has three difficulties- easy, in which you move at approximately twice the speed of the enemy squares, hard, in which you only move slightly faster than the enemy squares, and chaos, in which you move quickly and have a ridiculously fast fire rate, which can easily lead to accidental ricochet self-damage.</p>
+		  <p><a href = "https://drive.google.com/file/d/0B-kbGELCvhUGVW9XcFEwN0ZrMGM/view?usp=sharing">Click here</a> to download a release build of QuadriBATTLEral, or click the heading above to get access to the Unity files.</p>
+		  <img src="images/quadribattleral.jpg" alt="Screenshot of QuadriBATTLEral" height="100%" width="100%">
+      </div>
+	    
+	  <hr>
+	  
+	  <h2><a href = "http://matchcubed.netai.net">Match&sup3 </a></h2>
+	  <div class="row-fluid">
+		<div class="span6">
+			<p>Match Cubed is a web game that I made using Javascript(and some HTML and CSS), and currently holds the honour of being the most fun game that I have produced (in my opinion). It won me the 2014 "Best Technical Project" award for first year AIE students.</p>
+			<p>Match Cubed is a Columns-style game with a twist- it plays out in <b>three dimensions!</b> Groups of three coloured blocks fall from the sky, and by moving those blocks forwards, backwards, left, right, and switching the order of the blocks, you must make lines of three or more blocks of the same colour. Additionally, white blocks cannot be matched- they fall through the bottom of the game world, and so blocks beneath them must be matched to move them downwards. As you play, the game gets progressively faster, and if you make it far enough, more colours can be added, ensuring that the difficulty ramps up quickly.</p>
+          <p>Click on the heading above to play Match&sup3 .</p>
+		</div>
+		<div class="span6">
+			<img src="images/matchcubed.jpg" alt="Screenshot of Match Cubed" height="100%" width="100%">
+		</div>
+      </div>
+	    
+	  <hr>
+	  
+	  <div>
+          <h2><a href="https://drive.google.com/file/d/0B-kbGELCvhUGazQxQnpTRFp0Wjg/view?usp=sharing">Powered Down</a></h2>
+          <p>Powered Down is a puzzle platformer two other programmers and I attempted to make using C# and the MonoGame and Farseer engines. It was, unfortunately, never finished. It was developed for both PC and Playstation Vita. This was the first decent-sized project that I worked with other programmers on.</p>
+		  <p>In Powered Down, you play a broken robot attempting to escape from an old, derelict factory. The core mechanic is power- you are only powered, and hence can only control your robot, while he is touching a powered (electrified) surface. While not in contact with a powered surface (for example, mid jump, or while sitting on an unpowered platform) you have no control, and if you get stuck in this state the game ends. Power can be transferred to objects through conductive materials, and so puzzles involved manipulating objects within the game world to create a powered path to the exit.</p>
+		  <p>Powered Down also has a built-in level editor, allowing players to extend the amount of content within the game. The location of saved files is stated to players, allowing them to transfer level save files to others to share levels.</p>
+		  <p>You can download the Powered Down project by clicking on the heading above, or you can access the blog that was maintained throughout the project's development <a href="http://bamcode.blogspot.com.au/">here</a>.
+		  <img src="images/powereddown.jpg" alt="Screenshot of Powered Down" height="100%" width="100%">
+      </div>
+	  
+	  <hr>
+	  
+	  <div>
+          <h2><a href= "https://drive.google.com/file/d/0B-kbGELCvhUGSjJmMWRWd0hMNG8/view?usp=sharing">unnamed encoding program</a></h2>
+          <p>This program is an encoding program I created in C++ for making files smaller. It uses both Huffman Encoding and Run-Length Encoding to reduce file sizes.</p>
+		  <p>My encoding program first uses a modified Run-Length Encoding algorithm, and checks if this has made the file smaller. If it has, the RLE encoded data then goes through Huffman Encoding, and if it hasn't, then the original data then goes through Huffman Encoding. While Run Length Encoding, instead of checking adjacent characters to see if they are identical, I check every third character (and then repeat this for every third character + 1, then every third character + 2). By doing this, image files that store colours as RBG groups can often be reduced in size by taking advantage of adjacent pixels often having similar colours in each channel. As I don't check to see whether the Huffman Encoding stage will decrease the file size, using my encoder on small files can actually result in larger file sizes.</p>
+		  <p>You can download a release build of my encoding program <a href =https://drive.google.com/file/d/0B-kbGELCvhUGNHM3aW41S1ZNNWM/view?usp=sharing> here </a> or you can access the project/source files for it by clicking the heading above.
+      </div>
+	  
+	  <hr>
+	  
+	  <div>
+          <h2>Interstellar Banana</h2>
+          <p>Interstellar Banana is a four player twin-stick shooter I created with another developer. It was created in Unity over a two week period, and was both my first experience with C# and my first experience with Unity.</p>
+		  <p>Interstellar Banana was created for the AIE arcade machine- a computer inside an arcade cabinet, with 4 Xbox controllers plugged into it. As such, it <b>only</b> supports Xbox controllers- keyboard controls were never implemented.</p>
+		  <p>Interstellar Banana pits 4 players against each other in a fight to score the most points. Each player pilots a spaceship, and points are gained by destroying other players' spaceships, while points are lost for having your own spaceship destroyed. The game is very fast paced, with each ship dying to just a single bullet, and each round lasting only one minute. To gain an edge, players can collide with the power-up giving star, which will temporarily power-up the players shots; however only one player may have the power-up at any one time, so if another player collides with the star then they will steal the power-up from the previous person who had it. Interstellar Banana features voice acting from several members of the class, which helps to ensure that the game is silly and fun.</p>
+		  <p>A link to/ image of Interstellar Banana has not been included here because it uses sprites sourced from the internet, and doesn't include a 'credits' screen crediting the artist(s) who produced those sprites.</p>
+      </div>
+	  
+	  <hr>
+	 	  
+	  <div>
+          <h2><a href ="https://drive.google.com/file/d/0B-kbGELCvhUGVUYtSTZ5V1VCOTg/view?usp=sharing">Timey Tanks</a></h2>
+          <p>Timey Tanks is a top down shooter for one or two players I made with C++ and OpenGL.</p>
+		  <p>Within Timey Tanks, two tanks must try to deal as much damage to each other as possible. The game supports playing with two players on the same keyboard, or one player against an AI controlled tank. The controls allow players to move forwards or backwards, rotate their tank, rotate their turret, and fire. Additionally, when playing with two players, one shared button is available for either player to use that allows them to enter <b>Time Travel</b> mode! This plays backwards through the last 5 seconds of gameplay, allowing damage to be averted and different futures to be made! However, this can only be used sparingly- so use it wisely! Timey Tanks has three temporary powerups that can be collected- the Shotgun, that allows the player to fire spreads of shots, the Missile Whip, a hard to use stream of missiles that can cause massive damage if aimed correctly, and the Swarm, a glitch-inspired mine layer that fires shots that clump together and have a mind of their own. Timey Tanks features several modes:</p>
+		  <ul>
+			<li>Playback: Playback is the default mode for Timey Tanks- it is a two player mode in which the time travel button plays back through everything that has happened in reverse.</li>
+			<li>Mouse: In mouse mode, both tank's turrets point towards the mouse location- this forces players to physically fight over control of the mouse to be able to shoot each other's tanks.</li>
+			<li>Jump: In Jump mode, pushing the time travel button will instantly set players back 5 seconds in time, instead of playing back through everything that has happened.</li>
+			<li>Continuum Break!: Continuum Break! mode enables players to take control of multiple possible future versions of their tank at the same time!</li>
+			<li>AI: AI mode pits the player against a deadly AI opponent. While in this mode, the player uses the mouse to aim, and time travel is disabled.</li>
+		  </ul>
+		  <p>Timey Tanks also features a maths library that I created, which includes some functions for vectors (two dimensional and three dimensional) and matrices (3x3 only).</p>
+		  <p>You can download a release build of Timey Tanks <a href="https://drive.google.com/file/d/0B-kbGELCvhUGbUFrQkRiV1lLWW8/view?usp=sharing">here</a>, or click the heading above to access the project/source files (please note that large parts of the OpenGL code in the project were provided by my teacher, and while I made modifications to them, were not my own work).</p>
+		  <img src="images/timeytanks.jpg" alt="Screenshot of Timey Tanks" height="100%" width="100%">
+
+      </div>  
+	  
+	  <hr>
+	  
+	  <h2><a href = "https://drive.google.com/file/d/0B-kbGELCvhUGRzl4WXJxNmhrcGs/view?usp=sharing">2042</a></h2>
+	  <div class = "row-fluid">
+		<div class = "span6">
+          <p>2042 is a top down shooter (in the style of 1942) I developed in C++ using an engine provided by AIE.</p>
+		  <p>In 2042, you play as a jet trying to survive an endless onslaught of alien invaders. Killing aliens gets you points, and sometimes causes a power-up or extra life to drop. 2042 features four enemy types- charger enemies that charge straight for you, shooter enemies that try and stay at a safe distance and shoot at you from above, spawner enemies that frequently create more chargers, and an unkillable orbital laser, that relentlessly chases you and is faster than you, but is slow to change direction. Enemies come in from the edges of the screen (unless spawned by a spawner), and will quickly overwhelm the player if not dealt with.</p>
+		</div>
+		<div class = "span6">
+			<img src="images/2042.jpg" alt="Screenshot of 2042" height="100%" width="100%">
+		</div>
+      </div>
+	  <p>You can download a playable version of the game <a href= "https://drive.google.com/file/d/0B-kbGELCvhUGTmx6NUhtRklRbkE/view?usp=sharing">here</a> or download the project/source files by clicking on the heading above. Note that the playable version here isn't the newest version, and is missing some features (most notably spawner enemies) are missing. The project/source files are the newest version, however the AIE engine has issues with newer versions of Visual Studio.</p>
+	  
+	  <hr>
+	  
+      <div class="footer">
+        <p>colesamuel95@gmail.com</p>
+      </div>
+
+    </div>
+  </body>
+</html>
