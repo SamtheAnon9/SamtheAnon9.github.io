@@ -13,57 +13,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
-    <style type="text/css">
-		body {
-			padding-top: 20px;
-			padding-bottom: 40px;
-			/* Background image from subtlepatterns.com */
-			background-image: url(images/background.png);
-		}
-		h1 {
-			text-shadow: 3px 3px 3px #ccc;
-			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-			line-height: 65px;
-		}
-		h2 {
-			text-shadow: 1px 1px 1px #ccc;
-			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-			text-align: center;
-		}
-		p {
-			padding-top: 15px;
-			padding-bottom: 10px;
-			text-align: center;
-			font-family: 'Vollkorn', Georgia, Times, serif;
-			font-size: 16px;
-			line-height: 25px;
-		}
-
-		/* Custom container */
-		.container-narrow {
-			margin: 0 auto;
-			max-width: 700px;
-		}
-		
-		.container-narrow > hr {
-			margin: 30px 0;
-		}
-
-		/* Main marketing message and sign up button */
-		.jumbotron {
-			margin: 60px 0;
-			text-align: center;
-		}
-		.jumbotron h1 {
-			font-size: 72px;
-			line-height: 1;
-		}
-		.jumbotron .btn {
-			font-size: 21px;
-			padding: 14px 24px;
-		}
-		
-    </style>
+	<link href="style.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
   </head>
 
@@ -91,8 +41,8 @@
 
 	  <div>
           <h2><a href="https://github.com/samuel-cole/Engine-S">Engine-S</a></h2>
-          <p>Engine-S is a game engine that I am currently working on in C++ with OpenGL. This engine has been in development for six months. This is the first engine that I have worked on, and while it is very basic by engine standards, I am greatly enjoying making it.</p>
-		  <p>The engine currently allows users to easily create games, and has the following features implemented so far:</p>
+          <p>Engine-S is a game engine that I created in C++ with OpenGL. This engine was in development for six months. This is the first engine that I have worked on, and while it is very basic by engine standards, I greatly enjoyed making it.</p>
+		  <p>The engine currently allows users to easily create games, and has the following features:</p>
 		  <ul>
 			<li>Can generate plane meshes.</li>
 			<li>Can load in .obj models.</li>
@@ -103,7 +53,8 @@
 			<li>Can do both deferred and forward lighting, and allows easy switching from deferred to forward in real-time.</li>
 			<li>Can generate shadows for any objects in the game world.</li>
 			<li>Can procedurally modify any model through the use of Perlin noise.</li>
-			<li>Can create particles and particle emitters on either the CPU or GPU.</li>
+			<li>Can create particles and particle emitters on either the CPU or GPU, and can be emitted in both cones and spheres..</li>
+			<li>Particles can be both textured and lit.</li>
 			<li>Can easily render any in-game camera's output to texture.</li>
 		  </ul>
 		  <p>I am also currently working on several minor projects within the engine, to show off what it can do. These include a checkers game and some messing around with PhysX.</p>

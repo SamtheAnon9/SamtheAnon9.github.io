@@ -8,61 +8,15 @@
     <meta name="description" content="Samuel Cole Portfolio">
     <meta name="author" content="Samuel Cole">
 	<meta name="keywords" content="Samuel Cole, Portfolio, Programming, Games, Development">
-	
+		
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet">
     <style type="text/css">
-		body {
-			padding-top: 20px;
-			padding-bottom: 40px;
-			/* Background image from subtlepatterns.com */
-			background-image: url(images/background.png);
-		}
 		h1 {
-			text-shadow: 3px 3px 3px #ccc;
-			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 			font-size: 50px;
-			line-height: 65px;
 		}
-		h2 {
-			text-shadow: 1px 1px 1px #ccc;
-			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-			text-align: center;
-		}
-		p {
-			padding-top: 15px;
-			padding-bottom: 10px;
-			text-align: center;
-			font-family: 'Vollkorn', Georgia, Times, serif;
-			font-size: 16px;
-			line-height: 25px;
-		}
-
-		/* Custom container */
-		.container-narrow {
-			margin: 0 auto;
-			max-width: 700px;
-		}
-		
-		.container-narrow > hr {
-			margin: 30px 0;
-		}
-
-		/* Main marketing message and sign up button */
-		.jumbotron {
-			margin: 60px 0;
-			text-align: center;
-		}
-		.jumbotron h1 {
-			font-size: 72px;
-			line-height: 1;
-		}
-		.jumbotron .btn {
-			font-size: 21px;
-			padding: 14px 24px;
-		}
-		
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
   </head>
@@ -74,7 +28,13 @@
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li class = "dropdown"> 
+		    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Projects <b class="caret"></b></a>
+		    <ul class="dropdown-menu" role="menu">
+			  <li><a href="projects.html">3-5 week long projects</a></li>
+			  <li><a href="projects.html">Longer projects</a></li>
+			</ul>
+		  </li>
 		  <li><a href="blogs.html">Blogs</a></li>
         </ul>
         <h3 class="muted">Samuel Cole</h3>
@@ -104,5 +64,6 @@
         <p>colesamuel95@gmail.com</p>
       </div>
     </div>
+	<script src="bootstrap/js/bootstrap-dropdown.js"></script>
   </body>
 </html>
